@@ -1,8 +1,8 @@
 html {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  background-color: #212529;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 .montfont-b {
@@ -11,7 +11,7 @@ html {
 
 .navbar {
   font-size: 20px;
-  background-color: #343a40;
+  background-color: lightgray;
   position: fixed;
   width: 100%;
   left: 0;
@@ -31,20 +31,21 @@ html {
 
 .navbar ul li a {
   text-decoration: none;
-  color: grey;
+  color: black;
   display: block;
   text-align: center;
   padding: 23px 25px;
 }
 
 .navbar ul li a:hover {
-  background-color: #212529;
-  color: white;
+  background-color: white;
+  color: black;
   transition-duration: 0.3s;
 }
 
 .navbar ul li.nav-active a {
-  color: white;
+  color: black;
+  font-weight: 700;
 }
 
 .right-link {
@@ -79,7 +80,7 @@ html {
   transform: translate(-50%, -50%);
   text-align: center;
   margin: auto;
-  background-color: #343a40;
+  background-color: lightgrey;
   width: 700px;
   padding-top: 20px;
   padding-bottom: 50px;
@@ -96,7 +97,7 @@ html {
   text-align: center;
   margin: auto;
   margin-top: 200px;
-  background-color: #343a40;
+  background-color: lightgrey;
   width: 700px;
   padding-top: 20px;
   padding-bottom: 50px;
@@ -232,12 +233,12 @@ input::placeholder {
 
 .back a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 .back a:hover {
   text-decoration: none;
-  color: lightgray;
+  color: rgb(145, 145, 145);
 }
 
 .btn-submit {
@@ -358,13 +359,13 @@ input::placeholder {
 table {
   margin: auto;
   border-collapse: collapse;
-  color: white;
+  color: black;
   width: 100%;
 }
 
 th,
 td {
-  border: 1px solid white;
+  border: 1px solid black;
   padding: 8px;
   text-align: center;
 }
@@ -387,7 +388,7 @@ td {
   position: relative;
   text-align: center;
   margin: auto;
-  background-color: #343a40;
+  background-color: lightgray;
   width: 550px;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -402,8 +403,7 @@ td {
 
 .modal-header {
   padding: 2px 16px;
-  background-color: #343a40;
-  color: white;
+  background-color: lightgray;
   border-radius: 10px 10px 0px 0px;
 }
 
@@ -415,7 +415,7 @@ td {
 .modal-footer {
   margin-top: 30px;
   padding: 2px 16px;
-  background-color: #343a40;
+  background-color: lightgray;
   color: white;
   border-radius: 0px 0px 10px 10px;
 }
@@ -443,7 +443,7 @@ td {
 }
 
 .closeAdd {
-  color: white;
+  color: black;
   float: right;
   font-size: 28px;
   font-weight: bold;
@@ -451,13 +451,13 @@ td {
 
 .closeAdd:hover,
 .closeAdd:focus {
-  color: #000;
+  color: white;
   text-decoration: none;
   cursor: pointer;
 }
 
 .closeEd {
-  color: white;
+  color: black;
   float: right;
   font-size: 28px;
   font-weight: bold;
@@ -465,13 +465,13 @@ td {
 
 .closeEd:hover,
 .closeEd:focus {
-  color: #000;
+  color: white;
   text-decoration: none;
   cursor: pointer;
 }
 
 .closeDel {
-  color: white;
+  color: black;
   float: right;
   font-size: 28px;
   font-weight: bold;
@@ -479,13 +479,13 @@ td {
 
 .closeDel:hover,
 .closeDel:focus {
-  color: #000;
+  color: white;
   text-decoration: none;
   cursor: pointer;
 }
 
 .closeOut {
-  color: white;
+  color: black;
   float: right;
   font-size: 28px;
   font-weight: bold;
@@ -493,7 +493,7 @@ td {
 
 .closeOut:hover,
 .closeOut:focus {
-  color: #000;
+  color: white;
   text-decoration: none;
   cursor: pointer;
 }
