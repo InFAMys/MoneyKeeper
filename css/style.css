@@ -1,0 +1,445 @@
+html {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  background-color: #212529;
+  color: white;
+}
+
+.montfont-b {
+  font-weight: 700;
+}
+
+.navbar {
+  font-size: 20px;
+  background-color: #343a40;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: grey;
+  display: block;
+  text-align: center;
+  padding: 23px 25px;
+}
+
+.navbar ul li a:hover {
+  background-color: #212529;
+  color: white;
+  transition-duration: 0.3s;
+}
+
+.navbar ul li.nav-active a {
+  color: white;
+}
+
+.right-link {
+  margin-left: auto;
+  margin-right: 100px;
+}
+
+.btn-nav {
+  background-color: #6c757d;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  transition-duration: 0.3s;
+  width: 70px;
+}
+
+.btn-nav:hover {
+  background-color: #5a6268;
+  color: white;
+  box-shadow: 0 0 3px 3px #5a6268;
+}
+
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin: auto;
+  background-color: #343a40;
+  width: 550px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  border-radius: 18px;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2),
+    0 20px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.image-center {
+  display: block;
+  margin: auto;
+}
+
+.center-txt {
+  text-align: center;
+}
+
+.btn-login {
+  background-color: #6c757d;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  transition-duration: 0.3s;
+  width: 100px;
+}
+
+.btn-login:hover {
+  background-color: #5a6268;
+  color: white;
+  box-shadow: 0 0 3px 3px #5a6268;
+}
+
+.btn-register {
+  background-color: #6c757d;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  transition-duration: 0.3s;
+  width: 100px;
+}
+
+.btn-register:hover {
+  background-color: #5a6268;
+  color: white;
+  box-shadow: 0 0 3px 3px #5a6268;
+}
+
+input {
+  height: 40px;
+  width: 350px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid white;
+  padding: 2px 5px;
+  background-color: white;
+}
+
+select {
+  height: 40px;
+  width: 350px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid white;
+  padding: 2px 5px;
+  background-color: white;
+}
+
+input::placeholder {
+  font-size: 15px;
+}
+
+.top-h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.btn-login-own {
+  background-color: #6c757d;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  transition-duration: 0.3s;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  width: 150px;
+}
+
+.btn-login-own:hover {
+  background-color: #5a6268;
+  color: white;
+  box-shadow: 0 0 3px 3px #5a6268;
+}
+
+.lr-here {
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.lr-here a {
+  text-decoration: none;
+  color: white;
+}
+
+.lr-here a:hover {
+  text-decoration: none;
+  color: lightgray;
+}
+
+.back {
+  margin: auto;
+  margin-top: 30px;
+  margin-left: 50px;
+  text-align: left;
+}
+
+.back a {
+  text-decoration: none;
+  color: white;
+}
+
+.back a:hover {
+  text-decoration: none;
+  color: lightgray;
+}
+
+.btn-submit {
+  background-color: #6c757d;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  transition-duration: 0.3s;
+  margin-top: 15px;
+  width: 150px;
+}
+
+.btn-submit:hover {
+  background-color: #5a6268;
+  color: white;
+  box-shadow: 0 0 3px 3px #5a6268;
+}
+
+.btn-tambah {
+  background-color: #6c757d;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  transition-duration: 0.3s;
+  margin-top: 15px;
+  width: 160px;
+}
+
+.btn-tambah:hover {
+  background-color: #5a6268;
+  color: white;
+  box-shadow: 0 0 3px 3px #5a6268;
+}
+
+.form-input {
+  justify-content: center;
+  /* display: flex; */
+  margin: 0px 40px;
+  padding: 30px;
+}
+
+.j-table {
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.btn-edit {
+  background-color: #6c757d;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  transition-duration: 0.3s;
+}
+
+.btn-edit:hover {
+  background-color: #5a6268;
+  color: white;
+  box-shadow: 0 0 3px 3px #5a6268;
+}
+
+.btn-delete {
+  background-color: #dc3545;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  transition-duration: 0.3s;
+}
+
+.btn-delete:hover {
+  background-color: #bb2d3b;
+  color: white;
+  box-shadow: 0 0 3px 3px #bb2d3b;
+}
+
+table {
+  margin: auto;
+  border-collapse: collapse;
+  color: white;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid white;
+  padding: 8px;
+  text-align: center;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  position: relative;
+  text-align: center;
+  margin: auto;
+  background-color: #343a40;
+  width: 550px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 18px;
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2),
+    0 20px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@-webkit-keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+.closeT {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.closeT:hover,
+.closeT:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.closeEd {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.closeEd:hover,
+.closeEd:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.closeDel {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.closeDel:hover,
+.closeDel:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #343a40;
+  color: white;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.modal-body {
+  padding: 2px 16px;
+}
+
+.modal-footer {
+  margin-top: 30px;
+  padding: 2px 16px;
+  background-color: #343a40;
+  color: white;
+  border-radius: 0px 0px 10px 10px;
+}
